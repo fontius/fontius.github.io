@@ -1,0 +1,275 @@
+/*******************************
+orange f8581f
+dark blue 337ab7
+green 81c784
+orange gold complimentary f29900
+darker blue text color #000034
+baby blue #b8defd
+#1491fb logo blue
+LINEXON 13 theme/*--------DEMO 12----------*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #252525; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ubuntu', sans-serif; }
+
+a {
+  text-decoration: none !important;
+  outline: none !important; }
+
+.text-orange {
+  color: #1491fb;
+}
+/*======================
+        HELPER
+========================*/
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  background-color: #fff; }
+
+.title h2 {
+  margin-top: 10px; }
+
+span.title-border:before {
+  left: 100%; }
+
+span.title-border:after {
+  right: 100%; }
+
+span.title-border:before {
+  content: "";
+  background: #1491fb;
+  width: 45px;
+  height: 1px;
+  top: 9px;
+  position: absolute; }
+
+span.title-border:after {
+  content: "";
+  background: #1491fb;
+  width: 45px;
+  height: 1px;
+  top: 9px;
+  position: absolute; }
+
+span.title-border {
+  padding: 0 8px;
+  font-size: 18px;
+  line-height: 18px;
+  position: relative;
+  display: inline-block; }
+
+.btn-rounded {
+  border-radius: 30px; }
+
+.btn-custom {
+  font-size: 15px;
+  transition: all 0.4s;
+  color: #fff !important; }
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {
+  box-shadow: none !important; }
+
+.btn-outline-custom {
+  background-color: transparent;
+  border: 1px solid #fff !important;
+  transition: all 0.4s;
+  color: #fff; }
+
+.btn-outline-custom:hover,
+.btn-outline-custom:focus,
+.btn-outline-custom:active,
+.btn-outline-custom.active,
+.btn-outline-custom.focus,
+.btn-outline-custom:active,
+.btn-outline-custom:focus,
+.btn-outline-custom:hover,
+.open > .dropdown-toggle.btn-outline-custom {
+  background-color: #fff !important;
+  border: 1px solid #fff !important;
+  box-shadow: none !important;
+  color: #000; }
+
+.btn {
+  padding: 12px 25px;
+  font-size: 14px;
+  letter-spacing: 0.03px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.vertical-content {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  flex-direction: row;
+  -webkit-flex-direction: row; }
+
+/*==========================
+      Canvas for ThreeJS
+============================*/
+canvas {
+  background-color: #fff; }
+
+/*==========================
+        HOME
+============================*/
+.home-center {
+  padding-top: 280px;
+  padding-bottom: 140px;
+  display: table;
+  width: 100%;
+  height: 100%;
+   }
+
+.home-desc-center {
+  display: table-cell;
+  vertical-align: middle; }
+
+.home-title {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 600; }
+
+.home-sub-title {
+  font-size: 17px;
+  line-height: 1.8;
+  max-width: 600px; }
+
+.watch-video a span {
+  font-size: 16px;
+  padding-left: 10px;
+  position: relative;
+  top: -5px; }
+
+.play-icon-circle {
+  height: 44px;
+  width: 44px;
+  line-height: 44px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  color: #fff;
+  font-size: 28px; }
+
+.play-btn-light {
+  background-color: #fff !important;
+  color: #1491fb;
+  mix-blend-mode: lighten; }
+
+  /*=========================
+          TEAM
+  ===========================*/
+  .team-box {
+    border-radius: 7px;
+    border: 1px dashed #ddd; }
+
+  .team-box .team-desc .team-name {
+    font-weight: 600; }
+
+  .team-box .team-desc .team-work {
+    font-size: 14px; }
+
+  .team-social li a {
+    color: #808083;
+    transition: all 0.52s;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    display: inline-block; }
+
+  .team-social li a:hover {
+    color: #fff; }
+
+  /*==========================
+          FOOTER
+  ============================*/
+  .company-sub-menu li a {
+    color: #808080;
+    font-size: 14px;
+    margin-bottom: 7px;
+    display: inline-block;
+    transition: all 0.5s; }
+
+  .footer-title {
+    font-size: 15px;
+    font-weight: 700; }
+
+  .company-sub-menu li a:hover {
+    text-decoration: none; }
+
+  .contact-us p {
+    color: #808080;
+    font-size: 14px;
+    margin-bottom: 7px; }
+
+  .footer-icons li a {
+    height: 35px;
+    width: 35px;
+    color: #808080;
+    text-align: center;
+    border-radius: 20%;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 35px;
+    border-radius: 50%;
+    border: 1px solid #808080;
+    transition: all 0.5s; }
+
+  .footer-icons li a:hover {
+    color: #fff; }
+
+  .footer-alt .copy-rights {
+    margin: 0;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center; }
+
+  @media (max-width: 768px) {
+    .service-box .service-desc {
+      width: auto;
+      margin-left: 0%; }
+    .service-box .service-icon {
+      top: -15px;
+      position: relative;
+      transform: none;
+      left: 0; }
+    .vertical-content {
+      display: inherit; }
+    .features-desc h2 {
+      font-size: 26px; }
+    .home-title {
+      font-size: 28px; }
+    .home-sub-title {
+      font-size: 14px; }
+    .home-half {
+      padding-bottom: 85px;
+      padding-top: 120px; }
+    .home-height-half {
+      height: 100vh !important; }
+    .navbar-light .logo {
+      line-height: 0px !important;
+      padding: 0px !important; } }

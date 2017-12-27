@@ -1,0 +1,124 @@
+/*
+ * Blog STYLING
+ */
+
+
+.blog-header {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+.blog-title {
+  color: #007bff;
+  margin: 60 0 0 20px;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-weight: normal;
+  padding: 30px;
+}
+.blog-description {
+  font-size: 17px;
+  color: #007bff;
+  margin: 0 0 0 50px;
+}
+.blog-archive-title {
+  margin-bottom: 50px;
+}
+
+.bloghome-title {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 600; }
+
+.bloghome-sub-title {
+  font-size: 17px;
+  line-height: 1.8;
+  max-width: 600px; }
+
+/*
+* Main column and sidebar layout
+*/
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar-module-list-count {
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+* Blog posts
+*/
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+.blog-post-title-archive {
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+.blog-tags-container, .blog-categories-container {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.blog-tags-container span.glyphicon, .blog-categories-container span.glyphicon {
+  margin-right: 20px;
+}
+.blog-post-comments {
+  margin-top: 50px;
+}
+
+/*
+* Footer
+*/
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
